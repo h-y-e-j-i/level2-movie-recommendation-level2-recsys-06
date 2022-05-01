@@ -1,10 +1,9 @@
-# Movie Recommendation
+# 🎬 Movie Recommendation
 
 ## ❗ 주제 설명
+![image](https://user-images.githubusercontent.com/58590260/166145364-70004bf9-3689-4c73-b6a0-21aaaaaf3346.png)
 
 - 시간 순으로 정렬된 영화 시청 이력에서 중간의 일부 데이터가 누락된 상황일 때, 그 누락된 아이템들과 마지막 아이템을 예측
-
-
 
 ## 👋 팀원 소개
 
@@ -30,18 +29,6 @@
 ```python
 $ pip install -r $ROOT/level2-movie-recommendation-level2-recsys-06/requirements.txt
 ```
-
-
-## ✍ Function Description
-
-`model.py`: EfficientNet-b4와  GoogLeNet을 Ensemble하여 모델링
-
-`dataset.py`: data augmentation, labeling 등 model training에 사용되는 dataset 생성
-
-`loss.py`: cross entropy, f1 score, arcface를 이용해 loss 값을 계산
-
-`train.py`: model을 사용자가 지정한 parameter에 따라 실행하여 training
-
 
 ## 🏢 Structure
 
